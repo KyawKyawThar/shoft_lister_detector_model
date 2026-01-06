@@ -12,7 +12,7 @@ from tqdm import tqdm
 import torch
 
 # Configuration
-DATASET_PATH = "Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset"
+DATASET_PATH = "shoftlifting_dataset/Dataset"
 OUTPUT_PATH = "extracted_features"
 SEQUENCE_LENGTH = 30  # Number of frames per sequence
 NUM_KEYPOINTS = 17    # COCO format has 17 keypoints
